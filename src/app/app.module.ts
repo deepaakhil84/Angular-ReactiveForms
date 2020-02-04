@@ -1,14 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+
 
 import { AppComponent } from './app.component';
-import { CustomerComponent } from './customers/customer.component';
-
+import { TeamManagementComponent } from './team-management/team-management.component';
+import { ReactiveFormsModule, FormsModule } from "@angular/forms";
 @NgModule({
   declarations: [
     AppComponent,
-    CustomerComponent
+    TeamManagementComponent,
+
   ],
   imports: [
     BrowserModule,
